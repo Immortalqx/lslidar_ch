@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # data path
-data_path="./lidar_data"
+data_path="./pointcloud2_data"
 
 if [ ! -d $data_path ]; then
 	# echo WARNING: $data_path does not exist
 	mkdir $data_path
 fi
 
-# save pointcloud to TXT
+# save pointcloud to pointcloud2(TXT file)
 while :
 do
 	# get current timestamp
